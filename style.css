@@ -1,0 +1,119 @@
+/* ملف: styles.css */
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover; /* صورة الخلفية */
+    color: #fff; /* لون النص */
+}
+
+.bio-container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.7); /* خلفية شفافة داكنة */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* صورة البروفايل */
+.profile-pic {
+    width: 120px; /* حجم الصورة */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover; /* تناسب الصورة */
+    margin: 0 auto 20px;
+    display: block;
+    border: 3px solid #fff; /* إطار أبيض */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* تنسيق الاسم */
+.name-section {
+    margin-bottom: 30px; /* مسافة بين الاسم والمستطيلات */
+}
+
+.main-name {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin: 0;
+    color: #fff; /* لون أبيض */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* ظل النص */
+}
+
+.sub-name {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    margin: 5px 0 0;
+    color: #ffdb4d; /* لون مميز */
+}
+
+/* الروابط */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* المسافة بين الروابط */
+    align-items: center; /* توسيط الروابط */
+}
+
+.button {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    width: 80%; /* عرض الأزرار */
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.1); /* لون خلفية شفاف */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* إطار خفيف */
+}
+
+.button i {
+    font-size: 18px;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+/* ألوان الأزرار */
+.call-button {
+    background: linear-gradient(45deg, #ff0076, #ffdb4d); /* لون زاهي */
+}
+
+.whatsapp {
+    background: #25d366; /* لون واتساب */
+}
+
+.facebook {
+    background: #1877f2; /* لون فيسبوك */
+}
+
+.twitter {
+    background: #1da1f2; /* لون تويتر */
+}
+
+.instagram {
+    background: #e4405f; /* لون إنستجرام */
+}
+
+.linkedin {
+    background: #0077b5; /* لون لينكدإن */
+}
+
+.saraha {
+    background: #ff9900; /* لون صراحة */
+}
